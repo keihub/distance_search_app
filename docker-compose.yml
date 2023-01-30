@@ -1,0 +1,11 @@
+version: '3'
+services:
+  python3:
+    build: .
+    container_name: 'distance_search_app'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./distance_search_app:/root/distance_search_app
+      - ./data:/root/data
+    command: python3 ./distance_search_app/app.py
