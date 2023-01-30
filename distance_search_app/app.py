@@ -1,27 +1,9 @@
 import pandas as pd
 import pathlib
 import urllib
+import random
 import requests
 from geopy.distance import geodesic
-
-import random
-
-# def geocoding_addr(target_addr):
-#     geocoding_url = "https://www.geocoding.jp/api/"
-#     url = "https://msearch.gsi.go.jp/address-search/AddressSearch"
-#     params = {
-#         "q": target_addr,
-#     }
-#     encoded_params = urllib.parse.urlencode(params)
-#     req_url = geocoding_url + "?" + encoded_params
-#     fetched_geocode_xml = requests.get(req_url)
-#     fetched_geocode = xmltodict.parse(fetched_geocode_xml.text)
-#     format_geocode = (
-#         fetched_geocode["result"]["coordinate"]["lat"],
-#         fetched_geocode["result"]["coordinate"]["lng"],
-#     )
-#     time.sleep(10)
-#     return format_geocode
 
 
 def geocoding_addr(target_addr):
