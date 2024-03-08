@@ -35,3 +35,4 @@ def fetch_distance():
 
 if __name__ == "__main__":
     fetch_distance()
+    # TODO: google mapに表示される時間も取得できる様にする
