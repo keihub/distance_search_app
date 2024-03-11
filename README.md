@@ -2,8 +2,8 @@
 
 ## 概要
 
-- 2地点間の直線距離をoutputしてくれるtoolです
-- Excelをinputし距離を追加した上でoutputします
+- 2地点間の直線距離を新しいExcelシート作成する機能を持っています
+- 特定の初期に従ったExcelをinputし距離を追加した上でoutputします
 
 ## TL;DR
 
